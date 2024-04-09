@@ -34,11 +34,11 @@ class UI {
           
             if(!def.definition || !def.example) {
                 // console.log('first')
-                output += `<p>Meaning${index} : ${def.definition}</p>`;
+                output += `<p>Meaning (${index + 1}) : ${def.definition}</p>`;
                 console.log(`${index} : ${def.example}`)
             } else{
                 // console.log('second')
-                output += `<p>${index} : ${def.definition}. Example: ${def.example}</p>`;
+                output += `<p>Meaning (${index + 1}) : ${def.definition}. Example: ${def.example}</p>`;
                 console.log(`${index} : ${def.example}`)
             }
             
