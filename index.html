@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <head>
+    <header>
         <h1 class="logo">Dictionary</h1>
-    </head>
-    <div>
+    </header>
+    <div class="container">
         <form>
-            <label for="word">Search Word</label>
-            <input type="text" id="word">
-            <button id="search">Check Meaning</button>
+            <input type="text" id="word" placeholder="Search word..">
+            <button id="search">Search</button>
         </form>
         <audio id="sound"></audio>
-        <div>
-            <h1 id="new-word"></h1>
+        <div class="res">
+            <h2 id="new-word"></h2>
             <button class="play"><i id="audio"></i></button>
-            <p id="phonetic"></p>
+            <h3 id="phonetic"></h3>
             <div id="definition"></div>
         </div>
     </div>
@@ -29,4 +28,5 @@
     <script src="ui.js"></script>
     <script src="app.js"></script>
 </body>
+<footer>Copyright &copy; Chelvin2024</footer>
 </html>
