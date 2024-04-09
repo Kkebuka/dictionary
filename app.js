@@ -12,7 +12,7 @@ search.addEventListener('click', (e) => {
             ui.paintUI(data)
         })
         .catch(err => err)
-
+        // ui.clearText()
         e.preventDefault()
 })
 
